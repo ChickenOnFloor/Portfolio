@@ -17,13 +17,13 @@ const Projects = () => {
         tl.from('.pj', {
             scrollTrigger: {
                 trigger: '.project_parent',
-                start: "-100%",
+                start: "-70%",
                 end: "top",
                 scrub: true
             },
            y:300,
            opacity: 0,
-           stagger: .2
+           stagger: .1
         })
     })
   return (

@@ -15,3 +15,6 @@ body {
   font-family: "Audiowide", sans-serif;
 }
 
+.cardst {
+  @apply hidden sm:block relative w-8/12 max-w-[460px] h-44 sm:h-64 md:h-72  rounded-lg overflow-auto border-2 border-black
+}

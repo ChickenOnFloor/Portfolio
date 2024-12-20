@@ -1,7 +1,7 @@
 import React from 'react'
 import { useGSAP } from '@gsap/react';
 import { gsap } from 'gsap/gsap-core';
-import dog from '/assets/images/dog.jpg'
+import walker from '/assets/images/walker.jpg'
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
@@ -27,7 +27,7 @@ const Hero = () => {
         <h1 className='About text-xl text-center md:text-start'>I'm a Front-End Web Developer</h1>
       </div>
       <div className='flex justify-center items-center md:w-4/12 h-2/6 order-first md:order-last'>
-        <img className="w-4/12 rounded-full min-w-44" src={dog}/>
+        <img className="w-4/12 rounded-full min-w-44" src={walker} />
       </div>
     </div>
   )
