@@ -1,8 +1,6 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Portfolio
+- I built this responsive **Portfolio** using **HTML**, **Tailwind CSS**, **JavaScript**, and **React + Vite**.
+  - I used 2 external libraries:
+    - [GSAP](https://gsap.com) for animation.
+    - [Lenis](https://lenis.darkroom.engineering) for smooth scrolling.
