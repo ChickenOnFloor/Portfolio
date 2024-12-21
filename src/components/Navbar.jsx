@@ -44,7 +44,7 @@ const Navbar = () => {
       <ul className='hidden md:flex items-center gap-5 text-white text-xl '>
         <li className='navigator text-black flex justify-center items-center hover:text-[#0866FF] hover:bg-white rounded-full p-1 hover:mb-2'><a href=""><FontAwesomeIcon icon={faFacebook} /></a></li>
         <li className='navigator text-black flex justify-center items-center hover:text-[#0866FF] hover:bg-white rounded-full p-1 hover:mb-2'><a href=""><FontAwesomeIcon icon={faLinkedin} /></a></li>
-        <li className='navigator text-black flex justify-center items-center hover:text-black hover:bg-white rounded-full p-1 hover:mb-2'><a href=""><FontAwesomeIcon icon={faGithub} /></a></li>
+        <li className='navigator text-black flex justify-center items-center hover:text-black hover:bg-white rounded-full p-1 hover:mb-2'><a href="https://github.com/ChickenOnFloor" target='_blank'><FontAwesomeIcon icon={faGithub} /></a></li>
       </ul>
       <button className='md:hidden bg-white text-2xl py-1 px-3 rounded-md text-black'><FontAwesomeIcon icon={faBars} /></button>
     </div>
