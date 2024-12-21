@@ -83,7 +83,7 @@ const Stuff = () => {
         
         <div className='flex justify-around items-center flex-col h-6/6 h-screen pt-24 md:pt-32'>
             <h1 className='heading text-xl sm:text-2xl md:text-4xl border-b-2 border-black'>About Me</h1>
-            <h3 className='about w-10/12 sm:w-8/12 md:w-8/12 text-xs sm:text-lg'>I am a dedicated Front-End Developer with expertise in HTML, CSS, JavaScript, and React. I specialize in transforming designs into fully functional, responsive, and user-friendly web interfaces. My focus is on writing clean, efficient, and maintainable code to create seamless and accessible web experiences across all devices.</h3>
+            <h3 className='about w-10/12 sm:w-8/12 md:w-8/12 text-xs sm:text-md md:text-lg'>I am a dedicated Front-End Developer with expertise in HTML, CSS, JavaScript, and React. I specialize in transforming designs into fully functional, responsive, and user-friendly web interfaces. My focus is on writing clean, efficient, and maintainable code to create seamless and accessible web experiences across all devices.</h3>
             <div className='flex justify-center flex-col sm:flex-row md:flex-row items-center cards w-full gap-5 sm:gap-5 md:gap-20 '>
                 <div className='relative card1 card w-[25vw] max-w-[460px] min-w-[260px] h-[25vh] max-h-[288px] min-h-[220px] rounded-lg overflow-hidden border-2 border-black'>
                     <div className='absolute flex justify-center items-center w-full h-2/12 sm:h-10 md:h-16 border-b-2 border-black'>

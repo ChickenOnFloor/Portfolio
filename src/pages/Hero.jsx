@@ -22,7 +22,7 @@ const Hero = () => {
     })
   })
   return (
-    <div id="Hero" className='hero flex justify-center items-center w-full h-screen p-10 max-md:flex-col flex-row gap-10 sm:gap-20 md:gap-10 border-b-2'>
+    <div className='hero flex justify-center items-center w-full h-screen p-10 max-md:flex-col flex-row gap-10 sm:gap-20 md:gap-10 border-b-2'>
       <div className='flex justify-center flex-col gap-6 sm:w-6/12 md:w-12/12'>
         <h1 className='Name md:text-4xl text-2xl font-bold text-center md:text-start'>M.Jawwad Siddique</h1>
         <h1 className='About text-xl text-center md:text-start'>I'm a Front-End Web Developer</h1>

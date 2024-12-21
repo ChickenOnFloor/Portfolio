@@ -15,14 +15,14 @@ function Component() {
   return (
     <ReactLenis root>
      <div className=''>
-        <div id='Hero'>
+        <div id='Home'>
           <Navbar />
           <Hero />
         </div>
         <div id="About">
           <Stuff />
         </div>
-        <div>
+        <div id="Projects">
           <Projects />
         </div>
       </div>

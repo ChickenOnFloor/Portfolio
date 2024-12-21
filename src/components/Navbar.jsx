@@ -36,17 +36,17 @@ const Navbar = () => {
     <div className='navbar flex absolute justify-between items-center w-full h-16 px-8 golos border-b-2 max-w-[1920px]'>
       <a href="#" className='brand'><h1 className='text-black text-3xl font-bold cursor-pointer '>Portfolio.</h1></a>
       <ul className='hidden md:flex gap-5 justify-around items-center'>
-        <li className='navigator py-2 px-4 rounded-md text-black text-lg'><a href="#About">Home</a></li>
-        <li className='navigator py-2 px-4 rounded-md text-black text-lg'><a href="">About</a></li>
-        <li className='navigator py-2 px-4 rounded-md text-black text-lg'><a href="">Work</a></li>
-        <li className='navigator py-2 px-4 rounded-md text-black text-lg'><a href="">Contact</a></li>
+        <li className='navigator py-2 px-4 rounded-md text-black text-lg'><a href="#Home">Home</a></li>
+        <li className='navigator py-2 px-4 rounded-md text-black text-lg'><a href="#About">About</a></li>
+        <li className='navigator py-2 px-4 rounded-md text-black text-lg'><a href="#Project">Projects</a></li>
+        <li className='navigator py-2 px-4 rounded-md text-black text-lg'><a href="#Contact">Contact</a></li>
       </ul>
-      <ul className='hidden md:flex items-center gap-5 text-white text-xl '>
-        <li className='navigator text-black flex justify-center items-center hover:text-[#0866FF] hover:bg-white rounded-full p-1 hover:mb-2'><a href=""><FontAwesomeIcon icon={faFacebook} /></a></li>
-        <li className='navigator text-black flex justify-center items-center hover:text-[#0866FF] hover:bg-white rounded-full p-1 hover:mb-2'><a href=""><FontAwesomeIcon icon={faLinkedin} /></a></li>
+      <ul className='flex items-center text-white text-xl sm:gap-5'>
+        <li className='navigator text-black flex justify-center items-center hover:text-[#0866FF] hover:bg-white rounded-full p-1 hover:mb-2'><a href="https://www.facebook.com/muhammad.jawwad.71066"><FontAwesomeIcon icon={faFacebook} /></a></li>
+        <li className='navigator text-black flex justify-center items-center hover:text-[#0866FF] hover:bg-white rounded-full p-1 hover:mb-2'><a href="https://www.linkedin.com/in/muhammad-jawwad-siddique-5b61ab257/"><FontAwesomeIcon icon={faLinkedin} /></a></li>
         <li className='navigator text-black flex justify-center items-center hover:text-black hover:bg-white rounded-full p-1 hover:mb-2'><a href="https://github.com/ChickenOnFloor" target='_blank'><FontAwesomeIcon icon={faGithub} /></a></li>
       </ul>
-      <button className='md:hidden bg-white text-2xl py-1 px-3 rounded-md text-black'><FontAwesomeIcon icon={faBars} /></button>
+      
     </div>
   )
 }
