@@ -4,4 +4,4 @@
   - I used 2 external libraries:
     - [GSAP](https://gsap.com) for animation.
     - [Lenis](https://lenis.darkroom.engineering) for smooth scrolling.
-![Showcase]('/misc/showcase.gif')
+![Showcase](/misc/showcase.gif)
