@@ -46,7 +46,6 @@ export default function App() {
     start: window.innerWidth < 768 ? "-1.1% top" : "30.005% 50%",
     end: window.innerWidth < 768 ? "bottom bottom" : "160% 50%",
     scrub:1,
-    markers: true,
     pin:true,
   }})
   tl2
