@@ -66,7 +66,7 @@ export default function App() {
           <h1 className="absolute w-full text-[3vw] text-center font-bold">Scroll Down</h1>
           <div className='arrow absolute top-[2%] md:top-[6%] border border-black px-[1vw] py-[0.7vw] rounded-full text-[.8vw]'><FontAwesomeIcon icon={faArrowDown}/></div>
         </div>
-        <div className="cards card-one absolute top-[130%] left-[50%] transform translate-x-[-50%] tranlate-y-[50%] border rounded-2xl shadow-2xl w-[80%] h-[80vh] bg-white p-2">
+        <div className="cards card-one absolute top-[130%] left-[50%] transform translate-x-[-50%] tranlate-y-[50%] border border-slate-400 rounded-2xl shadow-2xl w-[80%] h-[80vh] bg-white px-2">
           <Nav />
           <div className='hero  flex flex-col justify-center items-center md:flex-row md:justify-start text-center md:text-start w-full max-w-[80%] m-auto h-[calc(100%-3rem)] gap-[1vw]'>
             <div className="name flex justify-center flex-col w-full md:w-[50%] order-1 md:order-none ">
@@ -78,7 +78,7 @@ export default function App() {
             </div>
           </div>
         </div>
-        <div className="cards card-two flex flex-col justify-center items-center gap-[2vw] top-[230%] absolute left-[50%] transform translate-x-[-50%] tranlate-y-[50%] border rounded-2xl shadow-2xl w-[80%] h-[80vh] bg-white">
+        <div className="cards card-two flex flex-col justify-center items-center gap-[2vw] top-[230%] absolute left-[50%] transform translate-x-[-50%] tranlate-y-[50%] border border-slate-400 rounded-2xl shadow-2xl w-[80%] h-[80vh] bg-white">
             <div className='about-text w-[60%] text-center flex justify-center items-center flex-col gap-[1vw]'>
               <h1 className='text-[6vw] md:text-[2.5vw] font-semibold'>About</h1>
               <h1 className='text-[3vw] md:text-[1.2vw] abt-text text-gray-300'><Lettering text="Hi! I'm a Front-End Web Developer passionate about creating responsive and user-friendly web interfaces. Skilled in HTML, CSS, JavaScript, React, and Tailwind CSS, I focus on developing dynamic, optimized, and functional web applications. I’m driven to deliver innovative solutions and exceptional results. Let’s build something amazing!" className="abt-split"/></h1>
