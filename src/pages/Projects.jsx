@@ -26,7 +26,7 @@ const Projects = () => {
     ],
     [
       { title: 'React App 1', img: 'React1.png' },
-      { title: 'React App 2', img: 'Project.png' },
+      { title: 'React App 2', img: 'React2.png' },
       { title: 'Tailwind Site 1', img: 'Project.png' },
       { title: 'Tailwind Site 2', img: 'Project.png' },
     ],
