@@ -19,22 +19,22 @@ const Projects = () => {
 
   const projectsData = [
     [
-      { title: 'EcoTek Clone', img: 'Project1.png'},
-      { title: 'E-Commerce', img:'Project2.png'},
-      { title: 'Receipe Finder', img: 'Project3.png'},
-      { title: 'JS Project 1', img: 'Project.png'},
+      { title: 'EcoTek Clone', img: 'Project1.png', link: 'https://ecotek-clone.netlify.app'},
+      { title: 'E-Commerce', img:'Project2.png', link: 'https://chickenonfloor.github.io/Javascript/ECommerce/'},
+      { title: 'Receipe Finder', img: 'Project3.png', link: 'https://recipe-finder-beta-pink.vercel.app'},
+      { title: 'JS Project 1', img: 'Project.png', link: '#'},
     ],
     [
-      { title: 'ToDo App', img: 'React1.png'},
-      { title: 'Portfolio', img: 'React2.png'},
-      { title: 'Tailwind Site 1', img: 'Project.png'},
-      { title: 'Tailwind Site 2', img: 'Project.png'},
+      { title: 'ToDo App', img: 'React1.png', link: 'https://todolist-localstorage09.netlify.app'},
+      { title: 'Portfolio', img: 'React2.png', link: 'https://portfolio-rosy-ten-45.vercel.app'},
+      { title: 'Tailwind Site 1', img: 'Project.png', link: '#'},
+      { title: 'Tailwind Site 2', img: 'Project.png', link: '#'},
     ],
     [
-      { title: 'Node API 1', img: 'Project.png'},
-      { title: 'Mongo Dashboard', img: 'Project.png'},
-      { title: 'Express App', img: 'Project.png'},
-      { title: 'Backend Admin', img: 'Project.png'},
+      { title: 'Node API 1', img: 'Project.png', link: '#'},
+      { title: 'Mongo Dashboard', img: 'Project.png', link: '#'},
+      { title: 'Express App', img: 'Project.png', link: '#'},
+      { title: 'Backend Admin', img: 'Project.png', link: '#'},
     ]
   ]
 
@@ -77,13 +77,8 @@ const Projects = () => {
               className='w-full h-screen flex justify-center items-center cursor-pointer'
             >
               <div className='w-full flex flex-wrap justify-center items-center gap-4 md:gap-6 lg:gap-8'>
-                  {
-                      section.forEach(project => {
-                          console.log(project.title)
-                      })
-                  }
                 {section.map((project, j) => (
-                  <ProjectCard key={j} title={project.title} img={project.img} />
+                  <ProjectCard key={j} title={project.title} img={project.img} link={project.link}/>
                 ))}
               </div>
             </div>
