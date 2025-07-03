@@ -19,22 +19,22 @@ const Projects = () => {
 
   const projectsData = [
     [
-      { title: 'EcoTek Clone', img: 'Project1.png' },
-      { title: 'E-Commerce', img:'Project2.png' },
-      { title: 'Receipe Finder', img: 'Project3.png' },
-      { title: 'JS Project 1', img: 'Project.png' },
+      { title: 'EcoTek Clone', img: 'Project1.png'},
+      { title: 'E-Commerce', img:'Project2.png'},
+      { title: 'Receipe Finder', img: 'Project3.png'},
+      { title: 'JS Project 1', img: 'Project.png'},
     ],
     [
-      { title: 'ToDo App', img: 'React1.png' },
-      { title: 'Portfolio', img: 'React2.png' },
-      { title: 'Tailwind Site 1', img: 'Project.png' },
-      { title: 'Tailwind Site 2', img: 'Project.png' },
+      { title: 'ToDo App', img: 'React1.png'},
+      { title: 'Portfolio', img: 'React2.png'},
+      { title: 'Tailwind Site 1', img: 'Project.png'},
+      { title: 'Tailwind Site 2', img: 'Project.png'},
     ],
     [
-      { title: 'Node API 1', img: 'Project.png' },
-      { title: 'Mongo Dashboard', img: 'Project.png' },
-      { title: 'Express App', img: 'Project.png' },
-      { title: 'Backend Admin', img: 'Project.png' },
+      { title: 'Node API 1', img: 'Project.png'},
+      { title: 'Mongo Dashboard', img: 'Project.png'},
+      { title: 'Express App', img: 'Project.png'},
+      { title: 'Backend Admin', img: 'Project.png'},
     ]
   ]
 
