@@ -1,10 +1,8 @@
-import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faArrowUpRightFromSquare} from '@fortawesome/free-solid-svg-icons'
 const ProjectCard = (props) => {
-  console.log(props.link)
   return (
-    <div className='relative w-[60%] md:w-[40%] min-h-[30%] rounded-xl overflow-hidden group shadow-lg shadow-gray-400'>
+    <div className='relative w-[60%] md:w-[40%] min-h-[30%] rounded-xl overflow-hidden group shadow-lg shadow-gray-400 pcard'>
       <a href={props.link} target='_blank'>
         <div>
           <img src={props.img} alt="" className='w-full h-auto object-cover' />

@@ -13,28 +13,21 @@ const Projects = () => {
 
   const titles = [
     'HTML, CSS & JAVASCRIPT',
-    'REACT & TAILWIND',
-    'NEXT, TAILWIND & MONGODB'
+    'REACT & TAILWIND'
   ]
 
   const projectsData = [
     [
-      { title: 'EcoTek Clone', img: 'Project1.png', link: 'https://ecotek-clone.netlify.app'},
-      { title: 'E-Commerce', img:'Project2.png', link: 'https://chickenonfloor.github.io/Javascript/ECommerce/'},
-      { title: 'Receipe Finder', img: 'Project3.png', link: 'https://recipe-finder-beta-pink.vercel.app'},
-      { title: 'Dummy', img: 'Project.png', link: '#'},
+      { title: 'EcoTek Clone', img: 'Project1.png', link: 'https://github.com/ChickenOnFloor/ecotek-website-clone'},
+      { title: 'E-Commerce', img:'Project2.png', link: 'https://github.com/ChickenOnFloor/Javascript/tree/Javascript/ECommerce'},
+      { title: 'Receipe Finder', img: 'Project3.png', link: 'https://github.com/ChickenOnFloor/RecipeFinder'},
+      { title: 'ToDo App (Typescript)', img: 'Project4.png', link: 'https://github.com/ChickenOnFloor/ToDo-App-typescript'},
     ],
     [
-      { title: 'ToDo App', img: 'React1.png', link: 'https://todolist-localstorage09.netlify.app'},
-      { title: 'Portfolio', img: 'React2.png', link: 'https://portfolio-rosy-ten-45.vercel.app'},
-      { title: 'Dummy', img: 'Project.png', link: '#'},
-      { title: 'Dummy', img: 'Project.png', link: '#'},
-    ],
-    [
-      { title: 'Dummy', img: 'Project.png', link: '#'},
-      { title: 'Dummy', img: 'Project.png', link: '#'},
-      { title: 'Dummy', img: 'Project.png', link: '#'},
-      { title: 'Dummy', img: 'Project.png', link: '#'},
+      { title: 'ToDo App', img: 'React1.png', link: 'https://github.com/ChickenOnFloor/TodoList-React-'},
+      { title: 'Portfolio', img: 'React2.png', link: 'https://github.com/ChickenOnFloor/Portfolio'},
+      { title: 'ReSeller (FullStack)', img: 'React3.png', link: 'https://github.com/ChickenOnFloor/ReSeller'},
+      { title: 'Legal Assistant (FullStack)', img: 'React4.png', link: 'https://github.com/ChickenOnFloor/AI-Powered-Legal-Property-Advisor'},
     ]
   ]
 
