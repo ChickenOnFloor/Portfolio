@@ -1,34 +1,12 @@
 import React, { useEffect, useRef, useState } from 'react'
 import ProjectCard from '../components/ProjectCard'
-
+import { titles, projectsData } from '../constants/constants'
 const Projects = () => {
   const [currentTitle, setCurrentTitle] = useState('HTML, CSS & JAVASCRIPT')
 
   const sectionRefs = [
     useRef(null),
     useRef(null),
-    useRef(null),
-    useRef(null)
-  ]
-
-  const titles = [
-    'HTML, CSS & JAVASCRIPT',
-    'REACT & TAILWIND'
-  ]
-
-  const projectsData = [
-    [
-      { title: 'EcoTek Clone', img: 'Project1.png', link: 'https://github.com/ChickenOnFloor/ecotek-website-clone'},
-      { title: 'E-Commerce', img:'Project2.png', link: 'https://github.com/ChickenOnFloor/Javascript/tree/Javascript/ECommerce'},
-      { title: 'Receipe Finder', img: 'Project3.png', link: 'https://github.com/ChickenOnFloor/RecipeFinder'},
-      { title: 'ToDo App (Typescript)', img: 'Project4.png', link: 'https://github.com/ChickenOnFloor/ToDo-App-typescript'},
-    ],
-    [
-      { title: 'ToDo App', img: 'React1.png', link: 'https://github.com/ChickenOnFloor/TodoList-React-'},
-      { title: 'Portfolio', img: 'React2.png', link: 'https://github.com/ChickenOnFloor/Portfolio'},
-      { title: 'ReSeller (FullStack)', img: 'React3.png', link: 'https://github.com/ChickenOnFloor/ReSeller'},
-      { title: 'Legal Assistant (FullStack)', img: 'React4.png', link: 'https://github.com/ChickenOnFloor/AI-Powered-Legal-Property-Advisor'},
-    ]
   ]
 
   useEffect(() => {

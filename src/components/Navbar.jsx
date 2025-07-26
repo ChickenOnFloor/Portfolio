@@ -17,7 +17,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className='flex justify-between items-center w-full h-16 bg-[whitesmoke] shadow-lg shadow-gray-400 px-8 md:fixed z-50'>
+    <div className='flex justify-between items-center w-full h-16 bg-[whitesmoke] shadow-lg shadow-gray-400 px-8 md:fixed z-50 max-w-[1920px]'>
       <div className="logo">
         <h1 className='text-xl sm:text-2xl md:text-3xl font-bold'>PORTFOLIO.</h1>
       </div>
