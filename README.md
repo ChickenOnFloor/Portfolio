@@ -12,7 +12,6 @@ A modern, responsive portfolio website built with React, showcasing my projects 
 - **Responsive**: Fully responsive design that works on all devices
 - **Smooth Animations**: GSAP-powered animations for enhanced user experience
 - **Interactive Projects**: Dynamic project showcase with hover effects
-- **Contact Form**: Functional contact form for easy communication
 - **Tech Stack Display**: Visual representation of technologies used
 
 ## 🛠️ Tech Stack
@@ -39,8 +38,7 @@ Portfolio/
 │   │   └── ProjectCard.jsx      # Project card component
 │   ├── pages/
 │   │   ├── Hero.jsx             # Hero section
-│   │   ├── Projects.jsx         # Projects showcase
-│   │   └── Contact.jsx          # Contact form
+│   │   └── Projects.jsx         # Projects showcase
 │   ├── constants/
 │   │   └── constants.js         # Project data and constants
 │   ├── App.jsx                  # Main app component
