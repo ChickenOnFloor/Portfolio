@@ -76,11 +76,6 @@ Portfolio/
 - Responsive navigation
 - Social media links (GitHub, LinkedIn)
 
-### Contact Form
-- Clean and functional contact interface
-- Input validation
-- Professional styling with hover effects
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -176,9 +171,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Contact
 
 - **Name**: Muhammad Jawwad Siddique
-- **Role**: Frontend Web Developer
+- **Role**: Fullstack Web Developer
 - **GitHub**: [@ChickenOnFloor](https://github.com/ChickenOnFloor)
-- **LinkedIn**: [Add your LinkedIn profile]
+- **LinkedIn**: [Linkedin](https://www.linkedin.com/in/muhammad-jawwad-siddique-5b61ab257)
 
 ## 🙏 Acknowledgments
 
