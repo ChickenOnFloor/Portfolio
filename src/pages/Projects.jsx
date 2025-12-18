@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import ProjectCard from '../components/ProjectCard'
 import { titles, projectsData } from '../constants/constants'
 const Projects = () => {
-  const [currentTitle, setCurrentTitle] = useState('HTML, CSS & JAVASCRIPT')
+  const [currentTitle, setCurrentTitle] = useState('(FullStack)')
 
   const sectionRefs = [
     useRef(null),

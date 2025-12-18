@@ -13,21 +13,14 @@ export const techImages = {
 }
 
 export const titles =[
-    'HTML, CSS & JAVASCRIPT',
-    'REACT & TAILWIND + (FullStack)'
+    '(FullStack)'
 ]
 
 
 export const projectsData = [
     [
-        { title: 'EcoTek Clone', img: 'Images/Project1.png', link: 'https://github.com/ChickenOnFloor/ecotek-website-clone'},
-        { title: 'E-Commerce', img:'Images/Project2.png', link: 'https://github.com/ChickenOnFloor/Javascript/tree/Javascript/ECommerce'},
-        { title: 'Receipe Finder', img: 'Images/Project3.png', link: 'https://github.com/ChickenOnFloor/RecipeFinder'},
-        { title: 'ToDo App (Typescript)', img: 'Images/Project4.png', link: 'https://github.com/ChickenOnFloor/ToDo-App-typescript'},
-    ],
-    [
-        { title: 'ToDo App', img: 'Images/React1.png', link: 'https://github.com/ChickenOnFloor/TodoList-React-'},
-        { title: 'Portfolio', img: 'Images/React2.png', link: 'https://github.com/ChickenOnFloor/Portfolio'},
+        { title: 'Ignitia IdeaPitch (FullStack)', img: 'Images/React1.png', link: 'https://github.com/ChickenOnFloor/Ignitia-IdeaPitch'},
+        { title: 'Expense Tracker (FullStack)', img: 'Images/React2.png', link: 'https://github.com/ChickenOnFloor/ExpenseTracker-MERN'},
         { title: 'ReSeller (FullStack)', img: 'Images/React3.png', link: 'https://github.com/ChickenOnFloor/ReSeller'},
         { title: 'Legal Assistant (FullStack)', img: 'Images/React4.png', link: 'https://github.com/ChickenOnFloor/AI-Powered-Legal-Property-Advisor'},
     ]
